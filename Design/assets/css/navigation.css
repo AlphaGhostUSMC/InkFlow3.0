@@ -34,7 +34,8 @@
 }
 
 .nav-icons {
-  width: 40px;
+  max-width: 100%;
+  height: auto;
   padding-bottom: 20px;
   transition: transform 0.3s ease-in-out;
 }
@@ -47,27 +48,9 @@
   transform: translateY(2px);
 }
 
-.body-container-main {
-}
-
-.body-container-main {
-}
-
-@media (width: 400px) {
+@media (max-height: 600px) {
   .nav-icons {
-    width: 20px;
+    width: 30px;
   }
-}
-
-body::-webkit-scrollbar {
-  width: 0.5em;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #888;
-}
-
-body::-webkit-scrollbar-track {
-  background-color: #f8f9fa;
 }
 
