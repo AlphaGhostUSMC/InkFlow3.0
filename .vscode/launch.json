@@ -1,0 +1,8 @@
+{
+  "type": "edge",
+  "request": "launch",
+  "name": "InkFlow3",
+  "url": "http://localhost:3000",
+  "webRoot": "${workspaceFolder}/client/src",
+  "disableNetworkCache": true
+}
