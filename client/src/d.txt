@@ -1,0 +1,36 @@
+Folder PATH listing for volume FoxTrot
+Volume serial number is 2663-DD81
+
+
+src
+ª   App.css
+ª   App.js
+ª   App.test.js
+ª   d.txt
+ª   index.css
+ª   index.js
+ª   InkFlow Logo.svg
+ª   logo.svg
+ª   reportWebVitals.js
+ª   setupTests.js
+ª   
++---assets
+ª   +---icons
+ª   ª       arts.svg
+ª   ª       finance.svg
+ª   ª       food.svg
+ª   ª       health.svg
+ª   ª       home.svg
+ª   ª       InkFlow Logo.svg
+ª   ª       login.svg
+ª   ª       logout.svg
+ª   ª       male-avatar.svg
+ª   ª       register.svg
+ª   ª       technology.svg
+ª   ª       
+ª   +---styles
+ª           header.css
+ª           
++---components
+        header.js
+        
