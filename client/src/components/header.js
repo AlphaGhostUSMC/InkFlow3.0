@@ -1,14 +1,21 @@
-import React from 'react';
-import '../assets/bootstrap/css/bootstrap.min.css';
+import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React, { useEffect } from 'react';
 import '../assets/css/header.css';
+
+
 
 import logo from '../assets/img/icons/InkFlow Logo.svg';
 import home from '../assets/img/icons/home.svg';
 import logout from '../assets/img/icons/logout.svg';
 
-import '../assets/js/bs-init.js'
-
 function Header() {
+  useEffect(() => {
+    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  }, []);
+
   return (
     <header className="app-header">
       <div className="brand-logo-container">

@@ -1,5 +1,9 @@
 import React from 'react';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './assets/css/global-default.css';
+import './assets/css/body.css';
+
 
 import Header from './components/header';
 
@@ -8,7 +12,7 @@ function App() {
     <body className="body-main">
       <div className="body-container-main ">
         <Header />
-        </div>
+      </div>
     </body>
   );
 }
