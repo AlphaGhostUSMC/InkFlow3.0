@@ -1,6 +1,7 @@
 import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import React, { useEffect } from 'react';
 import '../assets/css/header.css';
+import '../assets/css/Anybody.css';
 
 
 

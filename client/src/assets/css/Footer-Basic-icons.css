@@ -1,9 +1,12 @@
 .page-footer-container {
   border-radius: 2em;
-  /*border: 2px dotted var(--bs-warning);*/
+  /* border: 2px dotted var(--bs-warning); */
   text-align: center;
-  color: #f8f9fa;
   background: linear-gradient(130deg, #8e3aba22, #27b5e922);
+}
+
+.text-muted {
+  color: #6c757d !important;
 }
 
 .bs-icon {
@@ -70,4 +73,3 @@
     font-size: 0.6em;
   }
 }
-

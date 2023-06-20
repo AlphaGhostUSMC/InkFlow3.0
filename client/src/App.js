@@ -6,9 +6,12 @@ import './assets/css/body.css';
 import './assets/css/article-container.css';
 
 
+
 import Header from './components/header';
 import Navigation from './components/navigation';
 import ArticleCard from './components/article-card';
+import CategoryHeading from './components/category-heading';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -17,18 +20,11 @@ function App() {
       <div className="body-container-main ">
         <Navigation />
         <div className='article-container'>
+          <CategoryHeading />
           <div className='article-sub-container'>
             <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
           </div>
+          <Footer />
         </div>
       </div>
     </body>

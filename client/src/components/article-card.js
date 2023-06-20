@@ -3,6 +3,8 @@ import articleImage from '../assets/img/pictures/fig1.jpg';
 import authorAvatar from '../assets/img/icons/male-avatar.svg';
 
 import '../assets/css/article-card.css';
+import '../assets/css/Amiko.css';
+import '../assets/css/Poppins.css';
 
 
 const ArticleCard = () => {
