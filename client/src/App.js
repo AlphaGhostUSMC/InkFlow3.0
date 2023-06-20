@@ -8,15 +8,27 @@ import './assets/css/article-container.css';
 
 import Header from './components/header';
 import Navigation from './components/navigation';
+import ArticleCard from './components/article-card';
 
 function App() {
   return (
     <body className="body-main">
       <Header />
       <div className="body-container-main ">
-      <Navigation />
+        <Navigation />
         <div className='article-container'>
-
+          <div className='article-sub-container'>
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+          </div>
         </div>
       </div>
     </body>

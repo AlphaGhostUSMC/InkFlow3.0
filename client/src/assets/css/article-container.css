@@ -22,7 +22,7 @@
 }
 
 .article-sub-container {
-  /*border: 2px dotted var(--bs-warning);*/
+  /* border: 2px dotted var(--bs-warning); */
   column-gap: 10px;
   row-gap: 10px;
   display: flex;
