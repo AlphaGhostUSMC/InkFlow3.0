@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './assets/css/global-default.css';
@@ -15,19 +16,25 @@ import Footer from './components/footer';
 
 function App() {
   return (
-    <body className="body-main">
-      <Header />
-      <div className="body-container-main ">
-        <Navigation />
-        <div className='article-container'>
-          <CategoryHeading />
-          <div className='article-sub-container'>
-            <ArticleCard />
+    <Routes>
+      <Route index element={<body className="body-main">
+        <Header />
+        <div className="body-container-main ">
+          <Navigation />
+          <div className='article-container'>
+            <CategoryHeading />
+            <div className='article-sub-container'>
+              <ArticleCard />
+            </div>
+            <Footer />
           </div>
-          <Footer />
         </div>
-      </div>
-    </body>
+      </body>} />
+      <Route path={'/signin'} 
+      element = {
+        <div>Login</div>
+      } />
+    </Routes>
   );
 }
 

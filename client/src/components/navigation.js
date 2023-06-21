@@ -10,12 +10,19 @@ import financeIcon from '../assets/img/icons/finance.svg';
 import artsIcon from '../assets/img/icons/arts.svg';
 import loginIcon from '../assets/img/icons/login.svg';
 import registerIcon from '../assets/img/icons/register.svg';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
   useEffect(() => {
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new bootstrap.Tooltip(tooltipTriggerEl);
+      const tooltip = new bootstrap.Tooltip(tooltipTriggerEl);
+      tooltipTriggerEl.addEventListener('shown.bs.tooltip', function () {
+        setTimeout(function () {
+          tooltip.hide();
+        }, 1000);
+      });
+      return tooltip;
     });
   }, []);
 
@@ -23,7 +30,7 @@ function Navigation() {
     <div className="vertical-nav">
       <ul className="navigation">
         <li>
-          <a href="https://example.com">
+          <Link to="https://example.com">
             <img
               className="nav-icons"
               data-bs-toggle="tooltip"
@@ -32,8 +39,8 @@ function Navigation() {
               alt="technology"
               title="Technology"
             />
-          </a>
-          <a href="https://example.com">
+          </Link>
+          <Link to="https://example.com">
             <img
               className="nav-icons"
               data-bs-toggle="tooltip"
@@ -42,8 +49,8 @@ function Navigation() {
               alt="food"
               title="Food"
             />
-          </a>
-          <a href="https://example.com">
+          </Link>
+          <Link to="https://example.com">
             <img
               className="nav-icons"
               data-bs-toggle="tooltip"
@@ -52,8 +59,8 @@ function Navigation() {
               alt="health"
               title="Health"
             />
-          </a>
-          <a href="https://example.com">
+          </Link>
+          <Link to="https://example.com">
             <img
               className="nav-icons"
               data-bs-toggle="tooltip"
@@ -62,8 +69,8 @@ function Navigation() {
               alt="finance"
               title="Finance"
             />
-          </a>
-          <a href="https://example.com">
+          </Link>
+          <Link to="https://example.com">
             <img
               className="nav-icons"
               data-bs-toggle="tooltip"
@@ -72,13 +79,13 @@ function Navigation() {
               alt="arts"
               title="Arts"
             />
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="user-actions">
         <ul className="navigation">
           <li>
-            <a href="https://example.com">
+            <Link to="/signin">
               <img
                 className="nav-icons"
                 data-bs-toggle="tooltip"
@@ -87,8 +94,8 @@ function Navigation() {
                 alt="finance"
                 title="Sign In"
               />
-            </a>
-            <a href="https://example.com">
+            </Link>
+            <Link to="https://example.com">
               <img
                 className="nav-icons"
                 data-bs-toggle="tooltip"
@@ -97,7 +104,7 @@ function Navigation() {
                 alt="finance"
                 title="Sign Up"
               />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
