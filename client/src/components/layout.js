@@ -10,6 +10,7 @@ import Header from '../components/header';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
 
+
 function Layout() {
   return (
     <body className="body-main">
@@ -17,10 +18,7 @@ function Layout() {
       <div className="body-container-main ">
         <Navigation />
         <div className='article-container'>
-
-          <div className='article-sub-container'>
-
-          </div>
+          {/* Page Content Should be Placed here */}
           <Footer />
         </div>
       </div>

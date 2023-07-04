@@ -3,6 +3,7 @@
   /* border: 2px dotted var(--bs-warning); */
   text-align: center;
   background: linear-gradient(130deg, #8e3aba22, #27b5e922);
+  margin-top: auto;
 }
 
 .text-muted {
