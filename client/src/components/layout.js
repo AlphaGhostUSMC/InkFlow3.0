@@ -9,6 +9,7 @@ import '../assets/css/article-container.css';
 import Header from '../components/header';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
+import Home from '../pages/home';
 
 
 function Layout() {
@@ -19,6 +20,7 @@ function Layout() {
         <Navigation />
         <div className='article-container'>
           {/* Page Content Should be Placed here */}
+          <Home />
           <Footer />
         </div>
       </div>
