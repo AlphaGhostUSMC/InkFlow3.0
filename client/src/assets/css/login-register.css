@@ -73,7 +73,8 @@
   transition: 0.5s;
 }
 
-.input-box input:focus ~ label, .input-box input:valid ~ label {
+.input-box input:focus~label,
+.input-box input:valid~label {
   top: -10px;
   left: 5px;
   color: #e3002c;
@@ -92,7 +93,7 @@
   padding: 0 35px 0 5px;
 }
 
-.input-box .icon {
+.input-box .icons {
   position: absolute;
   top: 50%;
   right: 5px;
@@ -102,7 +103,8 @@
   pointer-events: none;
 }
 
-.input-box input:focus, .input-box input:valid {
+.input-box input:focus,
+.input-box input:valid {
   background: transparent;
 }
 
@@ -170,4 +172,3 @@
 .register-link a:hover {
   text-decoration: underline;
 }
-
