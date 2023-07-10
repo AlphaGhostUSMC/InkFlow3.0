@@ -12,6 +12,28 @@
   -webkit-backdrop-filter: blur(50px);
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+.login-card .icon-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2em;
+  color: #f8f9fa;
+  cursor: pointer;
+  background: #9042b9;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  z-index: 10;
+}
+
+.login-card .icon-close:hover {
+  background: #28b6e9;
 }
 
 .form-box {
