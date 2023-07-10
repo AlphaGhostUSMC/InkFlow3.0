@@ -1,8 +1,8 @@
 import React from 'react';
 import { close, mail, lockClosed } from 'ionicons/icons';
 
-import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js';
-import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js';
+import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'
+import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'
 
 
 import '../assets/css/login-register.css';

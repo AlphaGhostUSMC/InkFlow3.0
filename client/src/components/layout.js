@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '../assets/bootstrap/css/bootstrap.min.css';
 import '../assets/css/body.css';
 import '../assets/css/article-container.css';
 
