@@ -7,9 +7,9 @@ import '../assets/css/article-container.css';
 
 
 
-import Header from '../components/header';
-import Navigation from '../components/navigation';
-import Footer from '../components/footer';
+import Header from './header';
+import Navigation from './navigation';
+import Footer from './footer';
 import Login from '../pages/login';
 
 
