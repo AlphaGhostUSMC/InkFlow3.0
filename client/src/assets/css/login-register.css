@@ -7,8 +7,8 @@
   background: linear-gradient(130deg, #8e3aba22, #27b5e922);
   color: white;
   position: relative;
-  backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
   justify-content: center;
   align-items: center;
   overflow: hidden;
