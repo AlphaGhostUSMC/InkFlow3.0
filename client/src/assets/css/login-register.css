@@ -1,5 +1,4 @@
 .login-card {
-  /*overflow: visible;*/
   width: 420px;
   min-height: 400px;
   max-height: 600px;
@@ -13,6 +12,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border: #ec778550 2px outset;
 }
 
 .login-card .close-icon {
