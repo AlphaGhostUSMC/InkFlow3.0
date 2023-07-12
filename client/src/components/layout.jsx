@@ -10,7 +10,8 @@ import '../assets/css/article-container.css';
 import Header from './header';
 import Navigation from './navigation';
 import Footer from './footer';
-import Login from '../pages/login';
+// import Login from '../pages/login';
+import Signup from '../pages/signup';
 
 
 function Layout() {
@@ -21,7 +22,7 @@ function Layout() {
         <Navigation />
         <div className='article-container'>
           {/* Page Content Should be Placed here */}
-          <Login />
+          <Signup />
           <Footer />
         </div>
       </div>
